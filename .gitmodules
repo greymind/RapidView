@@ -1,0 +1,3 @@
+[submodule "src/toolslib"]
+	path = src/toolslib
+	url = https://github.com/greymind/ToolsLibrary.git
