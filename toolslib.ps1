@@ -1,10 +1,14 @@
 param(
     [string] $CommitMessage,
-    [switch] $OnlyPushLocation
+    [switch] $Update
 )
 
 Push-Location src/toolslib
 
-if ($OnlyPushLocation -eq $null -or $OnlyPushLocation -eq $false) {
+if (![string]::IsNullOrEmpty($CommitMessage)) {
     git commit --all -m $CommitMessage
+}
+elseif ($Update -eq $true) {
+    Pop-Location
+    git submodule update --recursive --remote
 }
