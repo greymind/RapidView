@@ -2,9 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "console", "console\console.csproj", "{673B995C-73DC-4D81-9394-45F27C3942F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "console\Console.csproj", "{673B995C-73DC-4D81-9394-45F27C3942F4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib", "lib\lib.csproj", "{02BD29D2-CA0F-4A52-9796-5E457D4ED4B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "lib\Library.csproj", "{02BD29D2-CA0F-4A52-9796-5E457D4ED4B3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolsLibrary", "toolslib\ToolsLibrary.csproj", "{E968C9A6-3E98-4334-9243-F5814C7509FC}"
 EndProject
